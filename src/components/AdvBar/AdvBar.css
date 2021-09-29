@@ -1,0 +1,14 @@
+.astro-advbar {
+    background-color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    overflow: auto;
+}
+
+.astro-adv-container {
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    padding: 5px;
+}

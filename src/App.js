@@ -1,25 +1,65 @@
-import logo from './logo.svg';
+// process.env.REACT_APP_IMAGE_INLINE_SIZE_LIMIT=1024000
+import React from 'react';
 import './App.css';
+import HeaderBar from './components/HeaderBar/HeaderBar'
+import IntroBar from './components/IntroBar/IntroBar'
+import AdvBar from './components/AdvBar/AdvBar'
+// import {createHashHistory} from 'history'
+// var history = createHashHistory()
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+    }
+    // this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  // handleInputChange(e){
+  //   const value = e.target.value;
+  //   const filteredItems = value!==undefined || value!==null || value!=='' ? cardItems.filter(function(cardItem){
+  //     return (cardItem.itemName.toLowerCase().includes(value.toLowerCase()))
+  //   }) : cardItems
+
+  //   this.setState({filteredItems: filteredItems})
+  // }
+
+  // componentDidMount(){
+  //   history.push('/')
+  // }
+  render(){
+    // const showSidebar = this.state.showSidebar
+    return (
+    <div className="content-item-container">
+      <div className="main-container">
+            <HeaderBar />
+            <IntroBar />
+            <AdvBar />
+          {/* <div className="content-container">
+            <SideBar items={sidebarItems}
+                      showSidebar={this.state.showSidebar}
+                      active={this.state.active}
+                      onChange={(item) => {history.push(item.uri);this.setState({active: item.name})}}/> */}
+            {/* <Cards  itemName = {"Fish"}
+                    itemPrice = {"10"} 
+                    itemDetails = {"Detailed Description is here. Please provide more details bla bla bla bla"} /> */}
+            {/* <div className={"view-container"}>
+            <div className={"searchbar-container"}>
+              <SearchBar 
+                  toggleSidebar={() => this.setState({showSidebar: !showSidebar})}
+                  inputItems={cardItems} handleInputChange={this.handleInputChange} />
+            </div>
+            <div className={"cards-container"}>
+              {this.state.filteredItems.map(function(filteredItem){
+                return (<Cards itemName={filteredItem.itemName} itemPrice={filteredItem.itemPrice} itemDetails={filteredItem.itemDetails} />)
+              })}
+            </div>
+            </div>
+          </div> */}
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

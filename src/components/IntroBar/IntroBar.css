@@ -1,0 +1,31 @@
+.astro-introbar {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.astro-introquote-container{
+    display: inline-block;
+    /* height: 100%; */
+    width: 70%;
+}
+
+.astro-introquote{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.astro-introidol-container {
+    display: block;
+    float: right;
+    /* height: 80%; */
+    width: 30%;
+}
+
+.astro-introidol {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
