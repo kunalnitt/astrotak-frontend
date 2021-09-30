@@ -4,6 +4,7 @@ import HeaderBar from './components/HeaderBar/HeaderBar'
 import IntroBar from './components/IntroBar/IntroBar'
 import AdvBar from './components/AdvBar/AdvBar'
 import Horoscopes from './components/Horoscopes/Horoscopes';
+import Astrologers from './components/Astrologers/Astrologers';
 // import {createHashHistory} from 'history'
 // var history = createHashHistory()
 
@@ -36,6 +37,7 @@ class App extends React.Component {
             <IntroBar />
             <AdvBar />
             <Horoscopes />
+            <Astrologers />
           {/* <div className="content-container">
             <SideBar items={sidebarItems}
                       showSidebar={this.state.showSidebar}

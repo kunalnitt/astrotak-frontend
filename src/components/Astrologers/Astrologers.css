@@ -1,0 +1,79 @@
+.astro-astrologer-main {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.astro-astrologer-titlebar {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.astro-astrologer-title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.astro-astrologer-seeall-container {
+    display: block;
+    float: right;
+}
+
+.astro-astrologer-description {
+    font-weight: 100;
+    font-size: 75%;
+    padding: 1px;
+}
+
+.astro-detail-container{
+    margin-top: 10px;
+    background-color: #ffffff;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    text-align: left;
+}
+
+.astro-detail-card{
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    padding: 15px;
+    box-shadow: 2px 2px #888888;
+}
+
+.astro-detail-title-rating{
+    white-space: nowrap;
+    width: 100%;
+}
+
+.astro-detail-title{
+    display: inline-block;
+    font-size: 70%;
+    font-weight: 500;
+    width: 70%;
+}
+
+.astro-detail-rating {
+    text-align: right;
+    height: 100%;
+    display: inline-block;
+    font-size: 70%;
+    width: 30%;
+}
+
+.astro-detail-skill{
+    margin-top: 10px;
+    font-size: 60%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.astro-detail-charges{
+    font-size: 60%;
+    font-weight: 200;
+}
+
+.astro-detail-img {
+    width: 100%;
+}

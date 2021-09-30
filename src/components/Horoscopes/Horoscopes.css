@@ -1,11 +1,11 @@
 .astro-horoscope-main {
     background-color: #ffffff;
-    height: 150px;
     padding: 10px;
 }
 
 .astro-horoscope-titlebar {
     height: 20px;
+    margin-bottom: 5px;
 }
 
 .astro-horoscope-title {
@@ -23,4 +23,33 @@
     font-weight: 100;
     font-size: 75%;
     padding: 1px;
+}
+
+.astro-signs-container{
+    margin-top: 10px;
+    background-color: #ffffff;
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.astro-signs-card{
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+}
+
+.astro-signs-title{
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.astro-signs-dates{
+    font-size: 80%;
+    font-weight: 100;
+    margin: 3px;
+}
+
+.astro-signs-img {
+    width: 100%;
 }
