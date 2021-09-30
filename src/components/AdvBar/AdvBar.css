@@ -1,9 +1,8 @@
 .astro-advbar {
     background-color: #ffffff;
     white-space: nowrap;
-    overflow: hidden;
     width: 100%;
-    overflow: auto;
+    overflow-x: auto;
 }
 
 .astro-adv-container {

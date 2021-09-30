@@ -8,11 +8,11 @@ const adv1 = <div className="astro-adv-container"><img src={advImg1} className="
 const adv2 = <div className="astro-adv-container"><img src={advImg2} className="astro-adv"/></div>
   return (
     <div className="astro-advbar">
-      {adv1}
-      {adv2}
-      {adv1}
-      {adv2}
-      {adv1}
+        {adv1}
+        {adv2}
+        {adv1}
+        {adv2}
+        {adv1}
     </div>
   );
 };

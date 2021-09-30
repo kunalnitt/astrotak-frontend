@@ -1,9 +1,9 @@
-// process.env.REACT_APP_IMAGE_INLINE_SIZE_LIMIT=1024000
 import React from 'react';
 import './App.css';
 import HeaderBar from './components/HeaderBar/HeaderBar'
 import IntroBar from './components/IntroBar/IntroBar'
 import AdvBar from './components/AdvBar/AdvBar'
+import Horoscopes from './components/Horoscopes/Horoscopes';
 // import {createHashHistory} from 'history'
 // var history = createHashHistory()
 
@@ -35,6 +35,7 @@ class App extends React.Component {
             <HeaderBar />
             <IntroBar />
             <AdvBar />
+            <Horoscopes />
           {/* <div className="content-container">
             <SideBar items={sidebarItems}
                       showSidebar={this.state.showSidebar}

@@ -1,0 +1,26 @@
+.astro-horoscope-main {
+    background-color: #ffffff;
+    height: 150px;
+    padding: 10px;
+}
+
+.astro-horoscope-titlebar {
+    height: 20px;
+}
+
+.astro-horoscope-title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.astro-horoscope-seeall-container {
+    display: block;
+    float: right;
+}
+
+.astro-horoscope-description {
+    font-weight: 100;
+    font-size: 75%;
+    padding: 1px;
+}
