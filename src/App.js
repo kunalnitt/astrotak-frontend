@@ -3,14 +3,8 @@ import "primereact/resources/themes/bootstrap4-light-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css"
 import './App.css';
-// import "primeicons/primeicons.css";
-import HeaderBar from './components/HeaderBar/HeaderBar'
-import IntroBar from './components/IntroBar/IntroBar'
-import AdvBar from './components/AdvBar/AdvBar'
-import Horoscopes from './components/Horoscopes/Horoscopes';
-import Astrologers from './components/Astrologers/Astrologers';
-import Reports from './components/Reports/Reports';
-import Questions from './components/Questions/Questions';
+import Home from './components/Home/Home';
+import HeaderBar from './components/HeaderBar/HeaderBar';
 import NavBar from './components/NavBar/NavBar';
 // import {createHashHistory} from 'history'
 // var history = createHashHistory()
@@ -38,16 +32,11 @@ class App extends React.Component {
   render(){
     // const showSidebar = this.state.showSidebar
     return (
-    <div className="content-item-container">
-      <div className="main-container">
-            <HeaderBar />
-            <IntroBar />
-            <AdvBar />
-            <Horoscopes />
-            <Astrologers />
-            <Reports />
-            <Questions />
-            <NavBar />
+      <div className="content-item-container">
+        <div className="main-container">
+          <HeaderBar />
+          <Home />
+          <NavBar />
         </div>
       </div>
     );

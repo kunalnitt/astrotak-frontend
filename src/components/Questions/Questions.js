@@ -15,7 +15,7 @@ const DropdownBox = (props) => {
       <div className="astro-question-dropdown-container">
         <div className="question-dropdown-title">Choose Category</div>
         <Dropdown className="question-dropdown" optionLabel="name" optionValue="name" value={category} options={props.questions} onChange={(e) => setCategory(e.value)} placeholder="Select a category: Love, career, more"/>
-        <div className="question-dropdown-description"><div className="question-price"><b> &#8377;99</b>(Including GST)</div><div className="ideas-what-to-ask"><b>Ideas what to ask    </b><div className="ask-a-question-button">Ask a Question</div></div></div>
+        <div className="question-dropdown-description"><div className="question-price"><b> &#8377;99  </b>(Including GST)</div><div className="ideas-what-to-ask"><b>Ideas what to ask</b>  <div className="ask-a-question-button">Ask a Question</div></div></div>
       </div>
     </div>
   )
