@@ -2,7 +2,6 @@ import React from 'react';
 import "./Astrologers.css";
 import seeAllImg from './../../assets/see-all.png'
 import { connect } from 'react-redux'
-import ariesImg from './../../signs/aries.png'
 
 function initCaps(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);

@@ -1,31 +1,31 @@
-.astro-astrologer-main {
+.astro-report-main {
     background-color: #ffffff;
     padding: 10px;
 }
 
-.astro-astrologer-titlebar {
+.astro-report-titlebar {
     height: 20px;
     margin-bottom: 5px;
 }
 
-.astro-astrologer-title {
+.astro-report-title {
     display: inline-block;
     font-weight: 500;
     font-size: 90%;
 }
 
-.astro-astrologer-seeall-container {
+.astro-report-seeall-container {
     display: block;
     float: right;
 }
 
-.astro-astrologer-description {
+.astro-report-description {
     font-weight: 100;
     font-size: 75%;
     padding: 1px;
 }
 
-.astro-detail-container{
+.astro-report-type-container{
     margin-top: 10px;
     background-color: #ffffff;
     white-space: nowrap;
@@ -34,29 +34,27 @@
     text-align: left;
 }
 
-.astro-detail-card{
+.astro-report-type-card{
     display: inline-block;
     height: 100%;
-    width: 35%;
-    padding: 15px;
+    width: 70%;
     margin: 2px;
-    box-shadow: 1px 2px #888888;
     border-radius: 10px;
 }
 
-.astro-detail-title-rating{
+.astro-report-type-title-rating{
     white-space: nowrap;
     width: 100%;
 }
 
-.astro-detail-title{
+.astro-report-type-title{
     display: inline-block;
     font-size: 70%;
     font-weight: 500;
     width: 70%;
 }
 
-.astro-detail-rating {
+.astro-report-type-rating {
     text-align: right;
     height: 100%;
     display: inline-block;
@@ -64,18 +62,20 @@
     width: 30%;
 }
 
-.astro-detail-skill{
+.astro-report-type-skill{
     margin-top: 10px;
     font-size: 60%;
     font-weight: 100;
     margin-bottom: 10px;
 }
 
-.astro-detail-charges{
+.astro-report-type-charges{
     font-size: 60%;
     font-weight: 200;
 }
 
-.astro-detail-img {
+.astro-report-type-img {
     width: 100%;
+    border-radius: 10px;
+    height: 150px;
 }

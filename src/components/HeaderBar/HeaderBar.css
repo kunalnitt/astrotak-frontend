@@ -1,6 +1,6 @@
 .astro-header {
     background-color: #ffffff;
-    height: 50px;
+    height: 70px;
     padding: 10px;
     white-space: nowrap;
 }
@@ -18,8 +18,9 @@
 }
 
 .astro-hamburger-container{
+    margin-top: 1%;
     display: block;
-    height: 100%;
+    height: 80%;
     float: left;
     margin-left: 1%;
 }

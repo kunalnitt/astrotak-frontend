@@ -1,20 +1,24 @@
 import React from 'react';
 import "./AdvBar.css";
-import advImg1 from './../../images/adv-a.png'
-import advImg2 from './../../images/adv-b.png'
+import { connect } from 'react-redux'
 
-const AdvBar = () => {
-const adv1 = <div className="astro-adv-container"><img src={advImg1} className="astro-adv"/></div>
-const adv2 = <div className="astro-adv-container"><img src={advImg2} className="astro-adv"/></div>
+const AdvBar = (props) => {
   return (
     <div className="astro-advbar">
-        {adv1}
+        {/* {adv1}
         {adv2}
         {adv1}
         {adv2}
-        {adv1}
+        {adv1} */}
+        {props.banners.map(function(item){
+          return (<div className="astro-adv-container"><img src={item.images.medium.imageUrl} className="astro-adv"/></div>)
+        })}
     </div>
   );
 };
 
-export default AdvBar;
+const mapStateToProps = (state) => ({
+  banners: state.banners
+})
+
+export default connect(mapStateToProps)(AdvBar)

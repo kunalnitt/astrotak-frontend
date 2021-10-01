@@ -1,10 +1,17 @@
 import React from 'react';
+import "primereact/resources/themes/bootstrap4-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css"
 import './App.css';
+// import "primeicons/primeicons.css";
 import HeaderBar from './components/HeaderBar/HeaderBar'
 import IntroBar from './components/IntroBar/IntroBar'
 import AdvBar from './components/AdvBar/AdvBar'
 import Horoscopes from './components/Horoscopes/Horoscopes';
 import Astrologers from './components/Astrologers/Astrologers';
+import Reports from './components/Reports/Reports';
+import Questions from './components/Questions/Questions';
+import NavBar from './components/NavBar/NavBar';
 // import {createHashHistory} from 'history'
 // var history = createHashHistory()
 
@@ -38,27 +45,9 @@ class App extends React.Component {
             <AdvBar />
             <Horoscopes />
             <Astrologers />
-          {/* <div className="content-container">
-            <SideBar items={sidebarItems}
-                      showSidebar={this.state.showSidebar}
-                      active={this.state.active}
-                      onChange={(item) => {history.push(item.uri);this.setState({active: item.name})}}/> */}
-            {/* <Cards  itemName = {"Fish"}
-                    itemPrice = {"10"} 
-                    itemDetails = {"Detailed Description is here. Please provide more details bla bla bla bla"} /> */}
-            {/* <div className={"view-container"}>
-            <div className={"searchbar-container"}>
-              <SearchBar 
-                  toggleSidebar={() => this.setState({showSidebar: !showSidebar})}
-                  inputItems={cardItems} handleInputChange={this.handleInputChange} />
-            </div>
-            <div className={"cards-container"}>
-              {this.state.filteredItems.map(function(filteredItem){
-                return (<Cards itemName={filteredItem.itemName} itemPrice={filteredItem.itemPrice} itemDetails={filteredItem.itemDetails} />)
-              })}
-            </div>
-            </div>
-          </div> */}
+            <Reports />
+            <Questions />
+            <NavBar />
         </div>
       </div>
     );

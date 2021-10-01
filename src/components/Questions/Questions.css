@@ -1,0 +1,87 @@
+.astro-question-main {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.astro-question-titlebar {
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.astro-question-title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+.astro-question-seeall-container {
+    display: block;
+    float: right;
+}
+
+.astro-question-description {
+    font-weight: 100;
+    font-size: 75%;
+    padding: 1px;
+}
+
+.astro-question-dropdown-main{
+    margin-top: 10px;
+    background-color: #e6eeff;
+    text-align: center;
+    height: 130px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.astro-question-dropdown-container{
+    display: inline-block;
+    width: 100%;
+}
+
+.question-dropdown-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    text-align: left;
+}
+
+.p-dropdown{
+    width: 100%;
+}
+
+.question-dropdown > .p-inputtext{
+    font-size: 90%
+}
+
+.question-dropdown-description {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 65%;
+}
+
+.question-price {
+    display: inline-block;
+    padding: 4px;
+}
+
+.ideas-what-to-ask {
+    float: right;
+}
+
+.ask-a-question-button {
+    padding: 7px;
+    display: inline-block;
+    background-color: #ff9933;
+    font-size: 70%;
+    font-weight: 500;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    color: black;
+    background-color:  #e6e6e6;
+}
