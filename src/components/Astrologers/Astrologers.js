@@ -12,7 +12,7 @@ const Card = (props) => {
         <div className="astro-detail-rating">{props.rating}</div>
       </div>
       <div className="astro-detail-skill">{props.skills[0].name}</div>
-      <div className="astro-detail-charges">&#8377; {props.minimumCallDurationCharges} / min</div>
+      <div className="astro-detail-charges">&#8377; {props.minimumCallDurationCharges} / min <div className="astro-detail-talk-now">Talk Now</div></div>
     </div>
   )
 }

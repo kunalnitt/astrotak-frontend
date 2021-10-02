@@ -5,6 +5,7 @@ const BANNER_URL=`${BACKEND_URL}/banner`
 const QUESTION_URL=`${BACKEND_URL}/question`
 const REPORT_URL=`${BACKEND_URL}/report`
 const HOROSCOPE_URL=`${BACKEND_URL}/horoscope`
+const CUSTOMER_URL=`${BACKEND_URL}/customer`
 
 
 export {
@@ -12,5 +13,6 @@ export {
     BANNER_URL,
     QUESTION_URL,
     REPORT_URL,
-    HOROSCOPE_URL
+    HOROSCOPE_URL,
+    CUSTOMER_URL
 }

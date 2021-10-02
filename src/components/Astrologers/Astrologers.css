@@ -82,3 +82,14 @@
 .astro-detail-img {
     width: 100%;
 }
+
+.astro-detail-talk-now {
+    padding: 6px;
+    float: right;
+    background-color: #ff9933;
+    font-size: 80%;
+    font-weight: 500;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+}

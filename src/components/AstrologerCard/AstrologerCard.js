@@ -1,5 +1,7 @@
 import React from 'react';
 import "./AstrologerCard.css";
+import taskOnCallImg from './../../assets/talk-on-call.png'
+
 
 const convertToStr = (arr) => {
     let str = ""
@@ -25,6 +27,7 @@ const AstrologerCard = (props) => {
             <div className="astro-talk-card-skill">{convertToStr(props.skills)}</div>
             <div className="astro-talk-card-language">{convertToStr(props.languages)}</div>
             <div className="astro-talk-card-charges">&#8377;{props.minimumCallDurationCharges}/ min</div>
+            <div className="astro-talk-on-call-img-container"><img src={taskOnCallImg} className="astro-talk-on-call-img"/></div>
         </div>
         <div className="astro-talk-card-rating">{props.experience} Years</div>
       </div>

@@ -40,6 +40,7 @@
     margin-top: 3px;
     font-size: 70%;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 
 .astro-talk-card-rating {
@@ -50,4 +51,12 @@
     font-size: 80%;
     font-weight: 300;
     width: 20%;
+}
+
+.astro-talk-on-call-img-container {
+    width: 120px;
+}
+
+.astro-talk-on-call-img-container > Img {
+    border-radius: 5px;
 }

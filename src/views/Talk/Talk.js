@@ -80,6 +80,7 @@ const Talk = (props) => {
       }
     }
   ) : filteredAstros
+  
   return (
     <div className="talk-container">
       <AstroPanel setSearchVisible={(e) => setSearchVisible(!searchVisible)} setSortVisible={(e) => op.current.toggle(e)} />

@@ -6,6 +6,7 @@ import Horoscopes from '../../components/Horoscopes/Horoscopes';
 import Astrologers from '../../components/Astrologers/Astrologers';
 import Reports from '../../components/Reports/Reports';
 import Questions from '../../components/Questions/Questions';
+import Customers from '../../components/Customers/Customers';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Astrologers />
         <Reports />
         <Questions />
+        <Customers />
     </div>
   );
 };

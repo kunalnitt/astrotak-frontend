@@ -1,4 +1,4 @@
-export default (state = { astros:[], banners: [], questions:[], reports: [], horoscopes: []  } , action) => {
+export default (state = { astros:[], banners: [], questions:[], reports: [], horoscopes: [], customers: []  } , action) => {
 
     switch(action.type) {
         case 'FETCH_ASTRO':
@@ -11,6 +11,8 @@ export default (state = { astros:[], banners: [], questions:[], reports: [], hor
             return {...state, reports: action.payload}
         case 'FETCH_HOROSCOPE':
             return {...state, horoscopes: action.payload}
+        case 'FETCH_CUSTOMER':
+            return {...state, customers: action.payload}
         default:
             return state
     }
