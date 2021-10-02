@@ -1,0 +1,16 @@
+.talk-container {
+    height: 100%;
+}
+
+.astro-talk-search {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p-input-icon-left {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}

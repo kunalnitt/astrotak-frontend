@@ -3,10 +3,6 @@ import "./Questions.css";
 import { connect } from 'react-redux'
 import { Dropdown } from 'primereact/dropdown'
 
-function initCaps(text) {
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
 const DropdownBox = (props) => {
   const [category, setCategory] = useState("");
   console.log("questions", props.questions)

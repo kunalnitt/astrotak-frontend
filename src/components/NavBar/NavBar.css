@@ -1,21 +1,26 @@
 .astro-nav {
     background-color: #ffffff;
-    padding: 10px;
     height: 15%;
     white-space: nowrap;
 }
 
 .astro-tab-container{
+    height: 100%;
     display: inline-block;
     width: 25%;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
 }
 
-.astro-tab-img {
+/* .astro-tab-img {
+    height: 100%;
+    padding: 10px
+} */
+
+img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
 }
-
-

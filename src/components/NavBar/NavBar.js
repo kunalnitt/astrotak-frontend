@@ -6,8 +6,8 @@ import askImg from './../../assets/ask.png'
 import reportsImg from './../../assets/reports.png'
 
 const NavBar = () => {
-const homeTab = <div className="astro-tab-container"><img className="astro-tab-img" src={homeImg} className="astro-tab"/></div>
-const talkTab = <div className="astro-tab-container"><img className="astro-tab-img" src={talkImg} className="astro-tab"/></div>
+const homeTab = <div onClick={() => {window.location.hash = '/'}} className="astro-tab-container"><img className="astro-tab-img" src={homeImg} className="astro-tab"/></div>
+const talkTab = <div onClick={() => {window.location.hash = '/talk'}} className="astro-tab-container"><img className="astro-tab-img" src={talkImg} className="astro-tab"/></div>
 const askTab = <div className="astro-tab-container"><img className="astro-tab-img" src={askImg} className="astro-tab"/></div>
 const reportsTab = <div className="astro-tab-container"><img className="astro-tab-img" src={reportsImg} className="astro-tab"/></div>
   return (

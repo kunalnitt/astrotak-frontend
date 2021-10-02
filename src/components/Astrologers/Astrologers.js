@@ -3,10 +3,6 @@ import "./Astrologers.css";
 import seeAllImg from './../../assets/see-all.png'
 import { connect } from 'react-redux'
 
-function initCaps(text) {
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
-
 const Card = (props) => {
   return (
     <div className="astro-detail-card">
