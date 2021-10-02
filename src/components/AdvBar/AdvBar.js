@@ -1,17 +1,15 @@
 import React from 'react';
 import "./AdvBar.css";
 import { connect } from 'react-redux'
+import { useHistory } from "react-router-dom";
+
 
 const AdvBar = (props) => {
+  const history = useHistory()
   return (
     <div className="astro-advbar">
-        {/* {adv1}
-        {adv2}
-        {adv1}
-        {adv2}
-        {adv1} */}
-        {props.banners.map(function(item){
-          return (<div className="astro-adv-container"><img src={item.images.medium.imageUrl} className="astro-adv"/></div>)
+        {props.banners.map(function(item, key){
+          return (<div key={key} onClick={() => {window.location.href = item.landingUrl}} className="astro-adv-container"><img src={item.images.medium.imageUrl} className="astro-adv"/></div>)
         })}
     </div>
   );

@@ -7,8 +7,9 @@ const convertToStr = (arr) => {
         arr.map((item) => {
             if(item.name===arr[0].name){
                 str=item.name
+            }else{
+                str=str+', '+item.name
             }
-            str=str+', '+item.name
         })
     }
 

@@ -23,8 +23,8 @@ const description = <div className="astro-report-description">Astrology report o
       </div>
       {description}
       <div className="astro-report-type-container">
-        {props.reports.map(function(item){
-          return (<Card {...item}/>)
+        {props.reports.map(function(item, key){
+          return (<Card key={key} {...item}/>)
         })}
       </div>
     </div>

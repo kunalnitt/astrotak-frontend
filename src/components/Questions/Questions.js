@@ -5,7 +5,6 @@ import { Dropdown } from 'primereact/dropdown'
 
 const DropdownBox = (props) => {
   const [category, setCategory] = useState("");
-  console.log("questions", props.questions)
   return (
     <div className="astro-question-dropdown-main">
       <div className="astro-question-dropdown-container">

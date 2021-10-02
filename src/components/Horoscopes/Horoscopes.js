@@ -30,8 +30,8 @@ const description = <div className="astro-horoscope-description">Read your daily
       </div>
       {description}
       <div className="astro-signs-container">
-        {props.horoscopes.map(function(item){
-          return (<Card {...item}/>)
+        {props.horoscopes.map(function(item,key){
+          return (<Card key={key} {...item}/>)
         })}
       </div>
     </div>

@@ -30,8 +30,8 @@ const description = <div className="astro-astrologer-description">Leading astrol
       </div>
       {description}
       <div className="astro-detail-container">
-        {filteredAstros.map(function(item){
-          return (<Card {...item}/>)
+        {filteredAstros.map(function(item,key){
+          return (<Card key={key} {...item}/>)
         })}
       </div>
     </div>

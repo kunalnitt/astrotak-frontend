@@ -36,7 +36,6 @@
 
 .astro-detail-card{
     display: inline-block;
-    height: 100%;
     width: 35%;
     padding: 5px;
     margin: 2px;
@@ -74,6 +73,10 @@
 .astro-detail-charges{
     font-size: 60%;
     font-weight: 200;
+}
+
+.astro-detail-img-container {
+    margin-top: 5px;
 }
 
 .astro-detail-img {
